@@ -73,7 +73,7 @@ if __name__ == "__main__":
     print(token)
 
     hour = datetime.now().hour
-    if 8 < hour <= 10:
+    if 8 <= hour <= 10:
         work("start", token)
     else:
         work("end", token)
